@@ -1,0 +1,14 @@
+.banner {
+  width: 100%;
+  text-align: center;
+  background-color: #df0d0d;
+  padding: 10px 0;
+}
+.banner img {
+  max-width: 300px;
+  height: auto;
+}
+#saved-cards img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
