@@ -1,17 +1,32 @@
+<!--
+  Nome do arquivo: index.html
+  Data de criação: 20/05/2025
+  Autor: José Roberto Silva Filho
+  Matrícula: 01741383 UNINASSAU
+
+  Descrição:
+  HTML principal do projeto React Pokémon TCG.
+  - Define o ponto de montagem da aplicação React (div#root)
+  - Importa Bootstrap, fontes e ícones
+  - Carrega o bundle principal gerado pelo Vite (main.jsx)
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dashboard - Roberto</title>
+    <meta charset="UTF-8" /> <!-- Define a codificação de caracteres -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" /> <!-- Ícone da aba do navegador -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Responsividade -->
+    <title>Dashboard - Roberto</title> <!-- Título da página -->
+    <!-- Importa o CSS do Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Ícone personalizado (Pokébola) -->
     <link rel="icon" href="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" type="image/png">
+    <!-- Fonte personalizada para o projeto -->
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <div id="root"></div> <!-- Ponto de montagem da aplicação React -->
+    <script type="module" src="/src/main.jsx"></script> <!-- Carrega o bundle principal gerado pelo Vite -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> <!-- JS do Bootstrap -->
   </body>
 </html>
