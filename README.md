@@ -25,7 +25,7 @@ Este projeto foi criado utilizando [Vite](https://vitejs.dev/) com o template Re
 
 # Estrutura do Projeto e Descrição de suas funcionalidades:
 
-/public
+*/public
   └─ index.html              // HTML principal do projeto React Pokémon TCG. Responsável por definir o ponto de montagem da aplicação React (div#root),
                  importar Bootstrap, fontes, ícones e carregar o bundle principal gerado pelo Vite.
 /src                         // contém todo o código-fonte da aplicação React, incluindo o componente principal, o ponto de entrada, estilos customizados e todos os componentes reutilizáveis responsáveis pelas funcionalidades
