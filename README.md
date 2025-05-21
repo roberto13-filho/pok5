@@ -26,11 +26,11 @@ Este projeto foi criado utilizando [Vite](https://vitejs.dev/) com o template Re
 # Estrutura do Projeto e Descrição de suas funcionalidades:
 
 */public
-  └─ index.html              // HTML principal do projeto React Pokémon TCG. Responsável por definir o ponto de montagem da aplicação React (div#root),
-                 importar Bootstrap, fontes, ícones e carregar o bundle principal gerado pelo Vite.
-/src                         // contém todo o código-fonte da aplicação React, incluindo o componente principal, o ponto de entrada, estilos customizados e todos os componentes reutilizáveis responsáveis pelas funcionalidades
-  ├─ App.jsx                // Componente principal do projeto. Gerencia o layout geral do dashboard.
-  ├─ main.jsx               // Ponto de entrada da aplicação React. Renderiza o App no elemento root do HTML.
+*  └─ index.html              // HTML principal do projeto React Pokémon TCG. Responsável por definir o ponto de montagem da aplicação React (div#root),
+*                 importar Bootstrap, fontes, ícones e carregar o bundle principal gerado pelo Vite.
+*/src                         // contém todo o código-fonte da aplicação React, incluindo o componente principal, o ponto de entrada, estilos customizados e todos os componentes reutilizáveis responsáveis pelas *funcionalidades
+* ├─ App.jsx                // Componente principal do projeto. Gerencia o layout geral do dashboard.
+*  ├─ main.jsx               // Ponto de entrada da aplicação React. Renderiza o App no elemento root do HTML.
   ├─ styles.css             // Estilos customizados CSS para o dashboard.
   └─ components/            // Componentes reutilizáveis da aplicação.
       ├─ SearchCard.jsx     // Campo de busca e exibição dos resultados da API.
