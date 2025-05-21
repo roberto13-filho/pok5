@@ -1,4 +1,4 @@
-<!--
+# Descrição do Projeto e Autoria
 Nome do arquivo: README.md
 Data de criação: 20/05/2025
 Autor: José Roberto Silva Filho
@@ -6,7 +6,6 @@ Matrícula: 01741383 UNINASSAU
 
 Descrição Arquivo README.md:
 Instruções e informações do projeto React Pokémon TCG.
--->
 
 # Arquitetura do  Projeto React com Vite
 A arquitetura de software com React se baseia em componentes reutilizáveis, facilitando a criação, manutenção e escalabilidade de aplicações. A modularidade dos componentes permite uma organização eficiente do código, resultando em desenvolvimento mais rápido e com menos erros. A utilização de Hooks e outras ferramentas do React, como o JSX, também contribui para a construção de interfaces de usuário complexas e personalizadas.
